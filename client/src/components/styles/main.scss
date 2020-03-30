@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+@import 'config';
+@import 'variables';
 @import 'Header';
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: inherit;
-}
-
-body {
-	font-family: 'Roboto', sans-serif;
-}
-
-a {
-	font-family: 'Roboto';
-}
