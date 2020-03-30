@@ -1,0 +1,16 @@
+#navbar {
+	background: #9e579d;
+	border: none;
+	border-bottom: 3px solid #333;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 1.4rem;
+		margin: 0;
+
+		&:hover {
+			background: lighten($color: #9e579d, $amount: 10);
+		}
+	}
+}

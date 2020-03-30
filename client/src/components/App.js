@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
+import './styles/main.scss';
 import StreamList from './stream/StreamList';
 import StreamCreate from './stream/StreamCreate';
 import StreamEdit from './stream/StreamEdit';
